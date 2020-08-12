@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="247007" started-at="2020-07-23T13:58:54 CDT" finished-at="2020-07-23T14:03:01 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="247007" started-at="2020-07-23T13:58:54 CDT" finished-at="2020-07-23T14:03:01 CDT">
+      <class name="com.qa.verizon.tests.PhoneTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="Setup" is-config="true" duration-ms="16963" started-at="2020-07-23T13:58:59 CDT" finished-at="2020-07-23T13:59:16 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="getPhonePageTitle()[pri:1, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="getPhonePageTitle" duration-ms="47" started-at="2020-07-23T13:59:32 CDT" finished-at="2020-07-23T13:59:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPhonePageTitle -->
+        <test-method status="PASS" signature="chooseFeatureOfPhone()[pri:2, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="chooseFeatureOfPhone" duration-ms="5639" started-at="2020-07-23T13:59:32 CDT" finished-at="2020-07-23T13:59:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFeatureOfPhone -->
+        <test-method status="PASS" signature="zipCode()[pri:3, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="zipCode" duration-ms="3475" started-at="2020-07-23T13:59:37 CDT" finished-at="2020-07-23T13:59:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zipCode -->
+        <test-method status="PASS" signature="chooseFeatures()[pri:4, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="chooseFeatures" duration-ms="196725" started-at="2020-07-23T13:59:41 CDT" finished-at="2020-07-23T14:02:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFeatures -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.verizon.tests.PhoneTest@2d6eabae]" name="close" is-config="true" duration-ms="456" started-at="2020-07-23T14:03:00 CDT" finished-at="2020-07-23T14:03:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.verizon.tests.PhoneTest -->
+      <class name="com.qa.verizon.tests.SmartPhoneTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.verizon.tests.SmartPhoneTest@23faf8f2]" name="Setup" is-config="true" duration-ms="8290" started-at="2020-07-23T13:59:16 CDT" finished-at="2020-07-23T13:59:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="PagetitleVerify()[pri:1, instance:com.qa.verizon.tests.SmartPhoneTest@23faf8f2]" name="PagetitleVerify" duration-ms="178" started-at="2020-07-23T13:59:25 CDT" finished-at="2020-07-23T13:59:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PagetitleVerify -->
+        <test-method status="PASS" signature="Choosephone()[pri:2, instance:com.qa.verizon.tests.SmartPhoneTest@23faf8f2]" name="Choosephone" duration-ms="6695" started-at="2020-07-23T13:59:25 CDT" finished-at="2020-07-23T13:59:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Choosephone -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.verizon.tests.SmartPhoneTest@23faf8f2]" name="teardown" is-config="true" duration-ms="204" started-at="2020-07-23T14:03:00 CDT" finished-at="2020-07-23T14:03:01 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.verizon.tests.SmartPhoneTest -->
+      <class name="com.qa.verizon.tests.HomePageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.verizon.tests.HomePageTest@4e7dc304]" name="Setup" is-config="true" duration-ms="5772" started-at="2020-07-23T13:58:54 CDT" finished-at="2020-07-23T13:58:59 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.verizon.tests.HomePageTest@4e7dc304]" name="verifyHomePageTitle" duration-ms="41" started-at="2020-07-23T14:02:58 CDT" description="Verizon: Wireless, Internet, TV and Phone Services | Official Site" finished-at="2020-07-23T14:02:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="selectPhoneList()[pri:2, instance:com.qa.verizon.tests.HomePageTest@4e7dc304]" name="selectPhoneList" duration-ms="233" started-at="2020-07-23T14:02:58 CDT" description="Select phone list" finished-at="2020-07-23T14:02:58 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPhoneList -->
+        <test-method status="PASS" signature="smartPhoneClick()[pri:3, instance:com.qa.verizon.tests.HomePageTest@4e7dc304]" name="smartPhoneClick" duration-ms="1879" started-at="2020-07-23T14:02:58 CDT" description="Smart phones click" finished-at="2020-07-23T14:03:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smartPhoneClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.verizon.tests.HomePageTest@4e7dc304]" name="tearDown" is-config="true" duration-ms="265" started-at="2020-07-23T14:03:00 CDT" finished-at="2020-07-23T14:03:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.verizon.tests.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
